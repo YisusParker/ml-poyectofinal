@@ -1,0 +1,11 @@
+# Índice del libro (barra lateral)
+format: jb-book
+root: index
+
+chapters:
+  - file: EDA
+    title: "1. Análisis Exploratorio (EDA)"
+  - file: Modelos
+    title: "2. Modelos"
+  - file: Modelo_propuesto
+    title: "3. Modelo propuesto"

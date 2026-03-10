@@ -1,0 +1,25 @@
+# Jupyter Book - Calidad del aire en Cali
+title: Calidad del aire en Cali
+author: Proyecto final
+copyright: "2025"
+logo: ""
+
+# Solo construir los archivos que estén en el índice
+only_build_toc_files: true
+
+# No ejecutar notebooks al construir (los resultados ya están guardados)
+execute:
+  execute_notebooks: "off"
+
+# HTML
+html:
+  home_page_in_navbar: true
+  use_multitoc_numbering: true
+
+# Tema con barra lateral e índice (estilo curso/documentación)
+sphinx:
+  config:
+    html_theme: sphinx_book_theme
+    html_theme_options:
+      navigation_depth: 3
+      show_toc_level: 2
