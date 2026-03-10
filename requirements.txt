@@ -1,0 +1,11 @@
+# Proyecto final - Machine Learning
+pandas>=1.5.0
+numpy>=1.23.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+scikit-learn>=1.2.0
+jupyter>=1.0.0
+
+# Jupyter Book 1: libro HTML con barra lateral (para build local y GitHub Pages)
+jupyter-book<2
+sphinx-book-theme>=1.0.0

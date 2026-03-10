@@ -1,0 +1,19 @@
+version: 1
+project:
+  title: Calidad del aire en Cali
+  authors:
+    - name: Proyecto final
+  copyright: '2025'
+  toc:
+    - file: index.md
+    - file: EDA.ipynb
+      title: 1. Análisis Exploratorio (EDA)
+    - file: Modelos.ipynb
+      title: 2. Modelos
+    - file: Modelo_propuesto.ipynb
+      title: 3. Modelo propuesto
+site:
+  options:
+    logo: ''
+    folders: true
+  template: book-theme

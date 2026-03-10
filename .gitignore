@@ -1,0 +1,5 @@
+_build/
+.jupyter_cache/
+**/._*
+.*.bak
+*.myst.bak
